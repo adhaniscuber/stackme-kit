@@ -1,16 +1,6 @@
-import React from 'react';
-
-export type IconProps = {
-  /**
-   * a text to be rendered in the component.
-   */
-  text: string
-};
+import React from "react";
+import { IconProps } from "./types";
 
 export function Icon({ text }: IconProps) {
-  return (
-    <div>
-      {text}
-    </div>
-  );
+  return <div>{text}</div>;
 }

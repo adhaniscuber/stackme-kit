@@ -1,2 +1,2 @@
-export { Core } from './core';
-export type { CoreProps } from './core';
+export { Core } from "./core";
+export type { CoreProps } from "./types";

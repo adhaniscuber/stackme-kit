@@ -1,16 +1,6 @@
-import React from 'react';
-
-export type ButtonProps = {
-  /**
-   * a text to be rendered in the component.
-   */
-  text: string
-};
+import React from "react";
+import { ButtonProps } from "./types";
 
 export function Button({ text }: ButtonProps) {
-  return (
-    <div>
-      {text}
-    </div>
-  );
+  return <div>{text}</div>;
 }

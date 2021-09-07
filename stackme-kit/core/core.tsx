@@ -1,16 +1,6 @@
-import React from 'react';
-
-export type CoreProps = {
-  /**
-   * a text to be rendered in the component.
-   */
-  text: string
-};
+import React from "react";
+import { CoreProps } from "./types";
 
 export function Core({ text }: CoreProps) {
-  return (
-    <div>
-      {text}
-    </div>
-  );
+  return <div>{text}</div>;
 }
